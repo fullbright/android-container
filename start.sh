@@ -5,7 +5,7 @@ function check_kvm() {
   if [ "$cpu_support_hardware_acceleration" != 0 ]; then
     echo 1
   else
-    echo 0
+    echo 1
   fi
 }
 

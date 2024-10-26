@@ -31,8 +31,16 @@ RUN yes Y | sdkmanager --verbose --no_https ${ANDROID_SDK_PACKAGES}
 
 # avdmanager
 ENV EMULATOR_NAME_x86="android_x86"
-RUN echo "no" | avdmanager --verbose create avd --force --name "${EMULATOR_NAME_x86}" --device "pixel" --package "${ANDROID_EMULATOR_PACKAGE_x86}"
+RUN echo "no" | avdmanager --verbose create avd --force --name "${EMULATOR_NAME_x86}" -p /data --sdcard 10G  --device "pixel" --package "${ANDROID_EMULATOR_PACKAGE_x86}"
 ENV LD_LIBRARY_PATH "$ANDROID_HOME/emulator/lib64:$ANDROID_HOME/emulator/lib64/qt/lib"
+
+# Gradlew
+RUN wget https://services.gradle.org/distributions/gradle-5.4.1-bin.zip -P /tmp \
+	&& unzip -d /opt/gradle /tmp/gradle-5.4.1-bin.zip
+
+RUN mkdir /opt/gradlew \
+	&& /opt/gradle/gradle-5.4.1/bin/gradle wrapper --gradle-version 5.4.1 --distribution-type all -p /opt/gradlew \
+	&& /opt/gradle/gradle-5.4.1/bin/gradle wrapper -p /opt/gradlew
 
 # clean up
 RUN apk del unzip wget && \

@@ -1,0 +1,725 @@
+   33  docker
+  413  docker
+  414  brew search docker
+  415  bres install docker docker-compose
+  416  brew install docker docker-compose
+  417  docker ps
+  418  docker-compose
+  419  docker --version
+  420  brew cask install docker\nbrew install kubectl\nbrew cask install minikube
+  423  docker version
+  424  docker-compose version
+  425  docker-machine --version
+  427  brew install docker-machine
+  428  docker ps
+  429  docker version
+  757  docker ps
+ 1157  docker 
+ 1159  mcd docker-woocommerce
+ 1160  mkdir docker-woocommerce
+ 1162  git clone https://github.com/urre/wordpress-nginx-docker-compose.git
+ 1164  cd wordpress-nginx-docker-compose
+ 1173  cd wordpress-nginx-docker-compose
+ 1185  cd opensourcepos/docker
+ 1190  docker/install-local.sh
+ 1191  less docker/install-local.sh
+ 1193  ll docker/
+ 1194  cat docker/install-local.sh
+ 1195  ls -la docker
+ 1196  cd docker
+ 1199  docker-compose -f ../docker-compose.yml build
+ 1202  docker ps
+ 1203  docker logs nginx
+ 1221  ./docker/init-selfcert.sh
+ 1222  chmod +x docker/init-selfcert.sh
+ 1223  ./docker/init-selfcert.sh
+ 1224  docker-compose -f docker-compose.yml down
+ 1225  chmod +x docker/*.sh
+ 1226  ll docker/
+ 1227  docker/install-server.sh
+ 1228  docker ps
+ 1229  docker logs nginx
+ 1230  cat docker/install-server.sh
+ 1231  cat docker/init-letsencrypt.sh 
+ 1232  cat docker/.env
+ 1233  vim docker/.env
+ 1234  cat docker/uninstall.sh
+ 1235  ./docker/uninstall.sh
+ 1236  docker/install-server.sh
+ 1237  vim docker/.env
+ 1238  docker/install-server.sh
+ 1239  docker ps
+ 1240  docker logs nginx
+ 1249  ./docker/uninstall.sh
+ 1250  docker/install-server.sh
+ 1251  docker logs nginx
+ 1258  rm -rf docker/data/certbot
+ 1259  docker ps
+ 1260  docker/uninstall.sh
+ 1261  docker/install-server.sh
+ 1262  docker ps
+ 1263  ll docker/data/certbot/conf/
+ 1264  cat  docker/data/certbot/conf/options-ssl-nginx.conf
+ 1265  docker logs nginx
+ 1266  docker/uninstall.sh
+ 1267  cat docker/init-letsencrypt.sh
+ 1268  cat docker/init-letsencrypt.sh | more
+ 1269  rm -rf docker/data/certbot
+ 1270  vim docker/.env
+ 1271  docker/uninstall.sh
+ 1272  docker/install-server.sh
+ 1273  docker logs nginx
+ 1274  rm -rf docker/data/certbot
+ 1275  docker/uninstall.sh
+ 1276  vim docker/.env
+ 1277  docker/install-server.sh
+ 1278  rm -rf docker/data/certbot
+ 1279  docker/uninstall.sh
+ 1280  vim docker/.env
+ 1281  docker/install-server.sh
+ 1282  docker ps
+ 1283  docker/install-server.sh
+ 1284  docker ps
+ 1285  docker inspect phpmyadmin | more
+ 1287  cat docker-compose.yml
+ 1288  more docker-compose.yml
+ 1289  more docker-compose.dev.yml
+ 1290  docker ps
+ 1292  docker/uninstall.sh
+ 1293  rm -rf docker/data/certbot
+ 1294  cat docker/install-server.sh
+ 1295  cd docker
+ 1296  docker-compose -f ../docker-compose.dev.yml build
+ 1297  docker ps
+ 1298  docker ps -a
+ 1302  docker ps
+ 1304  docker/install-server.sh
+ 1305  docker ps
+ 1307  docker logs nginx
+ 1308  vim docker/init-letsencrypt.sh
+ 1309  docker/uninstall.sh
+ 1310  docker/install-server.sh
+ 1311  docker ps
+ 1312  docker logs nginx
+ 1313  docker ps
+ 1314  cat docker/data/certbot/conf/options-ssl-nginx.conf
+ 1315  cat docker/data/certbot/conf/options-ssl-nginx.conf | more
+ 1316  vim docker/init-letsencrypt.sh
+ 1318  vim docker/init-letsencrypt.sh
+ 1323  vim docker/init-letsencrypt.sh
+ 1324  cat docker/data/certbot/conf/ssl-dhparams.pem
+ 1325  rm -rf docker/data/certbot
+ 1326  cat docker/data/certbot/conf/ssl-dhparams.pem
+ 1327  docker/uninstall.sh
+ 1328  cat docker/data/certbot/conf/ssl-dhparams.pem
+ 1329  docker/uninstall.sh
+ 1330  docker/install-server.sh
+ 1332  ls docker/data/certbot/conf/options-ssl-nginx.conf
+ 1333  cat docker/data/certbot/conf/options-ssl-nginx.conf
+ 1334  cat docker/data/certbot/conf/ssl-dhparams.pem
+ 1335  docker ps
+ 1336  docker logs nginx
+ 1337  docker/uninstall.sh
+ 1338  rm -rf docker/data/certbot
+ 1339  vim docker/init-letsencrypt.sh
+ 1340  docker/install-server.sh
+ 1341  docker logs nginx
+ 1342  docker ps
+ 1343  ls docker/data/certbot/conf/options-ssl-nginx.conf
+ 1344  vim docker/init-letsencrypt.sh
+ 1345  docker/install-server.sh
+ 1346  vim docker/init-letsencrypt.sh
+ 1347  docker/install-server.sh
+ 1348  docker ps
+ 1349  docker logs nginx
+ 1350  docker logs nginx --tails
+ 1351  docker logs nginx --tail
+ 1352  docker logs nginx
+ 1353  docker/uninstall.sh
+ 1354  ll docker/data/certbot/conf/live/ospos.ospos
+ 1355  docker/install-server.sh
+ 1356  docker ps
+ 1357  vim docker/init-letsencrypt.sh
+ 1358  docker/install-server.sh
+ 1359  docker ps
+ 1360  docker logs nginx
+ 1361  cat docker/data/certbot/conf/options-ssl-nginx.conf
+ 1362  cat docker/data/certbot/conf/ssl-dhparams.pem
+ 1363  cat docker/data/certbot/www
+ 1364  rm -rf docker/data/nginx/error_log.log
+ 1365  vim docker/init-letsencrypt.sh
+ 1366  docker-compose exec nginx nginx -s reload
+ 1367  cat docker/data/nginx/nginx.tmpl
+ 1368  vim docker/data/nginx/nginx.tmpl
+ 1369  docker logs nginx
+ 1370  rm -rf docker/data/nginx/error_log.log && touch /etc/nginx/error_log.log
+ 1371  rm -rf docker/data/nginx/error_log.log && touch docker/data/nginx/error_log.log
+ 1372  docker logs nginx
+ 1373  cat docker/data/nginx/error_log.log
+ 1374  docker ps
+ 1375  docker-compose exec nginx nginx -s reload
+ 1376  docker/uninstall.sh
+ 1377  docker/install-server.sh
+ 1378  docker ps
+ 1380  cd docker/data/certbot/www
+ 1394  docker logs nginx
+ 1412  docker run -d -p --rm 631:631 -v /var/run/dbus:/var/run/dbus --name cupsd --net=host olbat/cupsd\n
+ 1413  docker run help
+ 1414  docker run --help
+ 1415  docker run -d --rm -p 631:631 -v /var/run/dbus:/var/run/dbus --name cupsd --net=host olbat/cupsd\n
+ 1416  docker run -d --rm -p 631:631 --name cupsd --net=host olbat/cupsd
+ 1417  docker s
+ 1418  docker ps
+ 1419  docker ps -a
+ 1420  docker rm 12c7c19
+ 1421  docker run -d --rm -p 631:631 -v /var/run/dbus:/var/run/dbus --name cupsd --net=host olbat/cupsd\n
+ 1422  docker ps -a
+ 1423  docker rm 98a224
+ 1425  docker ps -a
+ 1428  docker run -d --rm -p 631:631 --name cupsd --net=host olbat/cupsd\n
+ 1429  docker ps -a
+ 1430  docker rm cuspd
+ 1431  docker rm cupsd
+ 1432  docker stop cupsd
+ 1433  docker ps -a
+ 1434  docker run -d --rm -p 631:631 --name cupsd olbat/cupsd\n
+ 1480  docker ps
+ 1498  docker ps
+ 1501  vim docker-compose.yml
+ 1502  ls /var/run/docker.sock
+ 1504  docker-compose up -d
+ 1505  vim docker-compose.yml
+ 1506  docker-compose up -d
+ 1507  vim docker-compose.yml
+ 1508  docker-compose up -d
+ 1509  vim docker-compose.yml
+ 1532  ll ../opensourcepos/docker/data/certbot/www
+ 1533  cat ../opensourcepos/docker/data/nginx/nginx.tmpl
+ 1537  less docker-compose.dev.yml
+ 1538  docker-compose down
+ 1539  cat docker-compose.yml
+ 1540  less docker-compose.yml
+ 1544  docker/install-local.sh
+ 1555  docker-compose down
+ 1561  cd docker
+ 1565  ll /Users/sergio/dev/opensourcepos/docker/data/nginx/
+ 1596  docker/install-local.sh
+ 1597  xs docker
+ 1598  cd docker
+ 1600  cp ../../opensourcepos-bkp-2/docker/.env .
+ 1605  docker-compose down
+ 1612  docker/install-local.sh
+ 1615  mv .env docker/
+ 1616  docker/install-local.sh
+ 1618  ll docker/data
+ 1619  ./docker/uninstall.sh
+ 1620  rm -rf docker/data
+ 1621  ll docker
+ 1622  docker/install-local.sh
+ 1623  ./docker/uninstall.sh
+ 1626  docker run --rm -name myfileserver\\n    -v /Users/sergio/dev/opensourcepos:/web \\n    -p 8080:8080 \\n    halverneus/static-file-server:latest
+ 1627  docker run --rm --name myfileserver\\n    -v /Users/sergio/dev/opensourcepos:/web \\n    -p 8080:8080 \\n    halverneus/static-file-server:latest
+ 1628  docker run --rm --name myfileserver\\n    -v /Users/sergio/dev/opensourcepos:/web \\n    -p 9180:8080 \\n    halverneus/static-file-server:latest
+ 1630  docker ps
+ 1631  docker ps -a
+ 1632  docker rm myfileserver
+ 1633  docker run --rm --name myfileserver\\n    -v /Users/sergio/dev/opensourcepos:/web \\n    -p 9180:8080 \\n    halverneus/static-file-server:latest
+ 1634  docker ps -a
+ 1639  docker run --rm -it -p 139:139 -p 445:445 -d dperson/samba -p \\n            -u "example1;badpass" \\n            -u "example2;badpass" \\n            -s "public;/share" \\n            -s "users;/srv;no;no;no;example1,example2" \\n            -s "example1 private share;/share/example1;no;no;no;example1" \\n            -s "example2 private share;/share/example2;no;no;no;example2" \\n            -s "example3 private share;/share/example3;yes;yes;yes;example3" \\n            -v /Users/sergio/dev/opensourcepos:/share
+ 1640  docker ps
+ 1641  docker run -it -p 139:139 -p 445:445 -d dperson/samba -p \\n            -u "example1;badpass" \\n            -u "example2;badpass" \\n            -s "public;/share" \\n            -s "users;/srv;no;no;no;example1,example2" \\n            -s "example1 private share;/share/example1;no;no;no;example1" \\n            -s "example2 private share;/share/example2;no;no;no;example2" \\n            -s "example3 private share;/share/example3;yes;yes;yes;example3" \\n            -v /Users/sergio/dev/opensourcepos:/share
+ 1642  docker ps
+ 1644  docker ps -a
+ 1646  sudo docker run -it --name samba -p 139:139 -p 445:445 \\n            -v /Users/sergio/dev/opensourcepos:/mount \\n            -d dperson/samba -p
+ 1647  docker run -it --name samba -p 139:139 -p 445:445 \\n            -v /Users/sergio/dev/opensourcepos:/share \\n            -d dperson/samba -p
+ 1650  docker run -it --name samba -p 139:139 -p 445:445 \\n            -d dperson/samba -p
+ 1651  docker rm samba
+ 1653  docker ps
+ 1654  docker exec -it samba
+ 1655  docker exec -it samba /bin/bash
+ 1656  docker restart samba
+ 1658  docker run help
+ 1659  docker run --help
+ 1660  docker run --help | grep network
+ 1661  docker stop samba
+ 1662  docker rm samba
+ 1663  docker run -it --name samba -p 139:139 -p 445:445 \\n            -v /Users/sergio/dev/opensourcepos:/share --network hosts \\n            -d dperson/samba -p
+ 1664  docker run -it --name samba -p 139:139 -p 445:445 \\n            -v /Users/sergio/dev/opensourcepos:/share --network host \\n            -d dperson/samba -p
+ 1665  docker stop samba
+ 1666  docker rm samba
+ 1667  docker run -it --name samba -p 139:139 -p 445:445 \\n            -v /Users/sergio/dev/opensourcepos:/share --network host \\n            -d dperson/samba -p
+ 1668  docker ps -a
+ 1669  docker rm sweet_allen
+ 1670  docker ps -a
+ 1672  docker ps -a
+ 1673  docker exec samba /bin/bash
+ 1674  docker exec -it samba /bin/bash
+ 1675  docker restart samba
+ 1676  docker exec -it samba /bin/bash
+ 1679  docker ps -a
+ 1680  docker stop samba && docker rm samba
+ 1681  docker ps -a
+ 1682  docker run -it --name samba -p 139:139 -p 445:445 \\n            -v /Users/sergio/dev/opensourcepos:/share \\n            -d dperson/samba -p
+ 1683  docker ps
+ 1684  docker exec -it samba /bin/bash
+ 1685  docker restart samba
+ 1687  docker ps
+ 1689  docker stop samba && docker rm samba
+ 1690  docker run --name samba -it -p 139:139 -p 445:445 -d dperson/samba /bin/bash -p \\n            -u "example1;badpass" \\n            -u "example2;badpass" \\n            -s "public;/share" \\n            -s "users;/srv;no;no;no;example1,example2" \\n            -s "example1 private share;/share/example1;no;no;no;example1" \\n            -s "example2 private share;/share/example2;no;no;no;example2" \\n            -s "example3 private share;/share/example3;yes;yes;yes;example3" \\n            -v /Users/sergio/dev/opensourcepos:/share \\n            -e "NMBD=1"
+ 1691  docker exec -it samba /bin/bash
+ 1692  docker ps 
+ 1693  docker run samba
+ 1694  docker start samba
+ 1695  docker ps
+ 1696  docker ps -a
+ 1697  docker exec samba cat /etc/samba/smb.conf
+ 1698  docker run -it samba /bin/bash
+ 1699  docker exec -it samba /bin/bash
+ 1700  docker rm samba
+ 1701  docker run -it --name samba -p 139:139 -p 445:445 \\n            -v /Users/sergio/dev/opensourcepos:/mount \\n            -d dperson/samba samba.sh -n -u "example1;badpass" \\n            -u "example2;badpass" \\n            -s "public;/share" \\n            -s "users;/srv;no;no;no;example1,example2" \\n            -s "example1 private share;/share/example1;no;no;no;example1" \\n            -s "example2 private share;/share/example2;no;no;no;example2" \\n            -s "example3 private share;/share/example3;yes;yes;yes;example3"
+ 1702  docker exec -it samba /bin/bash
+ 1705  docker run --rm -it busybox /bin/bash
+ 1706  docker run --rm -it busybox bash
+ 1707  docker run --rm -it busybox sh
+ 1818  docker pull logzio/docker-collector-logs
+ 1819  docker run --name docker-collector-logs \\n--env LOGZIO_TOKEN="BWBaHLZGqOsrwfXvtRTTfsloPzhUbdTM" \\n--env LOGZIO_URL="listener.logz.io:5015" \\n-v /var/run/docker.sock:/var/run/docker.sock:ro \\n-v /var/lib/docker/containers:/var/lib/docker/containers \\nlogzio/docker-collector-logs
+ 1821  docker plugin install store/logzio/logzio-logging-plugin:1.0.0 \\n--alias logzio/logzio-logging-plugin
+ 1822  docker plugin ls --filter enabled=true
+ 1823  docker plugin enable logzio/logzio-logging-plugin
+ 1824  docker ps
+ 1825  docker restart docker-collector-logs
+ 1827  docker ps
+ 1831  docker ps
+ 1833  docker stop docker-collector-logs
+ 1834  docker rm docker-collector-logs
+ 1835  docker run -d --name docker-collector-logs \\n--env LOGZIO_TOKEN="BWBaHLZGqOsrwfXvtRTTfsloPzhUbdTM" \\n--env LOGZIO_URL="listener.logz.io:5015" \\n--env additionalFields="hostname=MBP-de-Sergio-1.home;environment=dev;location=home" \\n-v /var/run/docker.sock:/var/run/docker.sock:ro \\n-v /var/lib/docker/containers:/var/lib/docker/containers \\nlogzio/docker-collector-logs
+ 1863  docker run -d --name docker-collector-metrics \\n--env LOGZIO_TOKEN="BWBaHLZGqOsrwfXvtRTTfsloPzhUbdTM" \\n--env LOGZIO_MODULES="docker" \\n--env additionalFields="hostname=MBP-de-Sergio-1.home;environment=dev;location=home" \\n-v /var/run/docker.sock:/var/run/docker.sock:ro \\nlogzio/docker-collector-metrics
+ 1865  docker stop docker-collector-metrics && docker rm docker-collector-metrics
+ 1866  docker run -d --name docker-collector-metrics \\n--env LOGZIO_TOKEN="njpoENHBmtbFbbHsLgpOLMcuMvqyzhTL" \\n--env LOGZIO_MODULES="docker,system" \\n--env additionalFields="hostname=MBP-de-Sergio-1.home;environment=dev;location=home" \\n-v /var/run/docker.sock:/var/run/docker.sock:ro \\nlogzio/docker-collector-metrics
+ 1870  docker run --rm -it ubuntu  /bin/bash
+ 1875  docker os
+ 1876  docker ps
+ 2097  docker run -v `pwd`:/source jagregory/pandoc -f markdown -t pdf Readme.md -o myfile.pdf
+ 2101  docker run -v `pwd`:/source jagregory/pandoc Readme.md -o Readme.pdf
+ 2139  docker run -v `pwd`:/source jagregory/pandoc Readme.md -o Readme.pdf
+ 2151  docker run -it --rm -v `pwd`:/source jagregory/pandoc /bin/bash
+ 2152  docker run -it --rm -v ${PWD}:/source jagregory/pandoc /bin/bash
+ 2155  docker run -it --rm -v ${PWD}:/source ubuntu /bin/bash
+ 2179  git rm --cached enzogriffine/wordpress-nginx-docker-compose
+ 2180  git submodule add <url> enzogriffine/wordpress-nginx-docker-compose
+ 2181  cd enzogriffine/wordpress-nginx-docker-compose
+ 2188  docker run --rm pandoc/latex pandoc
+ 2189  docker run --rm -v $PWD:/source pandoc/latex pandoc /source/Readme.md -o /source/MyReadme.pdf
+ 2192  docker run --rm -v $PWD:/source pandoc/latex pandoc /source/Readme.md -o /source/MyReadme.pdf --toc
+ 2194  docker run --rm -v $PWD:/source pandoc/latex pandoc /source/Readme.md -o /source/MyReadme.pdf --toc -N
+ 2196  docker run --rm -v $PWD:/source pandoc/latex pandoc /source/Readme.md -o /source/MyReadme.pdf --toc -N --pdf-engine=xelatex
+ 2199  docker run --rm -v $PWD:/source pandoc/latex pandoc /source/Readme.md -o /source/MyReadme.pdf --toc -N --pdf-engine=xelatex
+ 2202  docker run --rm -v $PWD:/source pandoc/latex pandoc --pdf-engine=xelatex -V colorlinks -V urlcolor=NavyBlue -V toccolor=Red /source/Readme.md -o /source/MyReadme.pdf --toc -N
+ 2205  docker run --rm -v $PWD:/source pandoc/latex pandoc --pdf-engine=xelatex -V colorlinks -V urlcolor=NavyBlue -V toccolor=Red /source/Readme.md -o /source/MyReadme.pdf --toc -N
+ 2209  docker run --rm -v $PWD:/source pandoc/latex pandoc --pdf-engine=xelatex -V colorlinks -V urlcolor=NavyBlue -V toccolor=Red /source/Readme.md -o /source/MyReadme.pdf --toc -N
+ 2212  rm MyReadme.pdf && docker run --rm -v $PWD:/source pandoc/latex pandoc --pdf-engine=xelatex -V colorlinks -V urlcolor=NavyBlue -V toccolor=Red /source/Readme.md -o /source/MyReadme.pdf --toc -N
+ 2213  rm MyReadme.pdf & docker run --rm -v $PWD:/source pandoc/latex pandoc --pdf-engine=xelatex -V colorlinks -V urlcolor=NavyBlue -V toccolor=Red /source/Readme.md -o /source/MyReadme.pdf --toc -N
+ 2214  rm MyReadme.pdf & docker run --rm -v $PWD:/source pandoc/latex pandoc --pdf-engine=xelatex -V colorlinks -V urlcolor=NavyBlue -V toccolor=Red /source/Readme.md -o /source/MyReadme.pdf --toc -N && open MyReadme.pdf
+ 2215  rm MyReadme.pdf & docker run --rm -v $PWD:/source pandoc/latex pandoc --pdf-engine=xelatex -V colorlinks -V urlcolor=NavyBlue -V toccolor=Red /source/Readme.md /source/HEADER.yml -o /source/MyReadme.pdf --toc -N && open MyReadme.pdf
+ 2216  rm MyReadme.pdf & docker run --rm -v $PWD:/source pandoc/latex pandoc --pdf-engine=xelatex -V colorlinks -V urlcolor=NavyBlue /source/HEADER.yml /source/Readme.md -o /source/MyReadme.pdf --toc -N && open MyReadme.pdf
+ 2217  rm MyReadme.pdf & docker run --rm -v $PWD:/source pandoc/latex pandoc -s -S --pdf-engine=xelatex -V colorlinks -V urlcolor=NavyBlue /source/HEADER.yml /source/Readme.md -o /source/MyReadme.pdf --toc -N && open MyReadme.pdf
+ 2218  rm MyReadme.pdf & docker run --rm -v $PWD:/source pandoc/latex pandoc --pdf-engine=xelatex -f "markdown_github+yaml_metadata_block+implicit_figures+table_captions+footnotes" -V colorlinks -V urlcolor=NavyBlue /source/HEADER.yml /source/Readme.md -o /source/MyReadme.pdf --toc -N && open MyReadme.pdf
+ 2219  rm MyReadme.pdf & docker run --rm -v $PWD:/source pandoc/latex pandoc --pdf-engine=xelatex -f "markdown_github+yaml_metadata_block+implicit_figures+table_captions+footnotes" --template eisvogel_mod  -V colorlinks -V urlcolor=NavyBlue /source/HEADER.yml /source/Readme.md -o /source/MyReadme.pdf --toc -N && open MyReadme.pdf
+ 2221  rm MyReadme.pdf & docker run --rm -v $PWD:/source pandoc/latex pandoc --pdf-engine=xelatex -f "markdown_github+yaml_metadata_block+implicit_figures+table_captions+footnotes" --template eisvogel_mod  -V colorlinks -V urlcolor=NavyBlue /source/HEADER.yml /source/Readme.md -o /source/MyReadme.pdf --toc -N && open MyReadme.pdf
+ 2222  rm MyReadme.pdf & docker run --rm -v $PWD:/source -v $PWD/templates:/.pandoc/templates pandoc/latex pandoc --pdf-engine=xelatex -f "markdown_github+yaml_metadata_block+implicit_figures+table_captions+footnotes" --template eisvogel_mod  -V colorlinks -V urlcolor=NavyBlue /source/HEADER.yml /source/Readme.md -o /source/MyReadme.pdf --toc -N && open MyReadme.pdf
+ 2223  rm MyReadme.pdf & docker run --rm -v $PWD:/source -v $PWD/templates:/.pandoc/templates pandoc/latex pandoc generate_pdf.sh  && open MyReadme.pdf
+ 2224  rm MyReadme.pdf & docker run --rm -v $PWD:/source -v $PWD/templates:/.pandoc/templates pandoc/latex pandoc /source/generate_pdf.sh  && open MyReadme.pdf
+ 2225  rm MyReadme.pdf & docker run --rm -v $PWD:/source -v $PWD/templates:/.pandoc/templates pandoc/latex /source/generate_pdf.sh  && open MyReadme.pdf
+ 2227  rm MyReadme.pdf & docker run --rm -v $PWD:/source -v $PWD/templates:/.pandoc/templates pandoc/latex /source/generate_pdf.sh  && open MyReadme.pdf
+ 2228  docker build . -t fullbright/pandoc:0.1
+ 2254  docker build . -t fullbright/pandoc:0.1
+ 2255  rm MyReadme.pdf & docker run --rm -v $PWD:/source -v $PWD/templates:/.pandoc/templates fullbright/pandoc:0.1 /source/generate_pdf.sh  && open MyReadme.pdf
+ 2257  docker run --rm fullbright/pandoc:0.1 ls -la /
+ 2258  docker run --rm fullbright/pandoc:0.1 pandoc -v
+ 2259  docker build . -t fullbright/pandoc:0.1
+ 2275  docker build . -t fullbright/pandoc:0.1
+ 2277  docker build . -t fullbright/pandoc:0.1
+ 2278  docker run --rm fullbright/pandoc:0.1 pandoc -v
+ 2279  rm MyReadme.pdf & docker run --rm -v $PWD:/source -v $PWD/templates:/.pandoc/templates fullbright/pandoc:0.1 /source/generate_pdf.sh  && open MyReadme.pdf
+ 2281  rm MyReadme.pdf & docker run --rm -v $PWD:/source -v $PWD/templates:/.pandoc/templates fullbright/pandoc:0.1 /source/generate_pdf.sh  && open MyReadme.pdf
+ 2283  rm MyReadme.pdf & docker run --rm -v $PWD:/source -v $PWD/templates:/.pandoc/templates fullbright/pandoc:0.1 /source/generate_pdf.sh  && open MyReadme.pdf
+ 2284  docker login
+ 2285  docker push fullbright/pandoc:0.1
+ 2288  rm MyReadme.pdf & docker run --rm -v $PWD:/source -v $PWD/templates:/.pandoc/templates fullbright/pandoc:0.1 /source/generate_pdf.sh  && open MyReadme.pdf
+ 2290  rm MyReadme.pdf & docker run --rm -v $PWD:/source -v $PWD/templates:/.pandoc/templates fullbright/pandoc:0.1 /source/generate_pdf.sh  && open MyReadme.pdf
+ 2306  docker build . fullbright/pandoc:0.2
+ 2307  docker build . -t fullbright/pandoc:0.2
+ 2309  docker build . -t fullbright/pandoc:0.2
+ 2327  docker push
+ 2328  docker push --help
+ 2329  docker push fullbright/pandoc:0.2
+ 2357  mkdir ../docker-pandoc-image-builder
+ 2358  mv gntshembeni/whatapp_bot/Dockerfile ../docker-pandoc-image-builder
+ 2368  cd ../docker-p
+ 2369  cd ../docker-pandoc-image-builder
+ 2371  git remote add origin https://github.com/fullbright/docker-pandoc.git
+ 2373  git commit -m "Add dockerfile"
+ 3251  docker run --rm -p 6379:6379 redis 
+ 3698  echo 'docker run --rm -p 6379:6379 redis' > ../../cybernautycs/fleastore_bot_heroku/start_local_redis.sh
+ 3942  docker images
+ 3946  grep docker Makefile
+ 4296  docker pull postgres:alpine
+ 4298  docker run --name postgres-0 -e POSTGRES-PASSWORD=102938Ruin -p 54325432 postgres:alpine
+ 4299  docker run --name postgres-0 -e POSTGRES_PASSWORD=102938Ruin -p 5432:5432 postgres:alpine
+ 4393  docker run -d --name postgres -e POSTGRES_HOST_AUTH_METHOD=trust -v "$(pwd)/server.crt:/var/lib/postgresql/server.crt:ro" -v "$(pwd)/server.key:/var/lib/postgresql/server.key:ro" postgres:12-alpine -c ssl=on -c ssl_cert_file=/var/lib/postgresql/server.crt -c ssl_key_file=/var/lib/postgresql/server.key
+ 4394  docker ps 
+ 4395  docker rm postgres
+ 4396  docker stop postgres
+ 4397  docker rm postgres
+ 4398  docker run -d --name postgres -e POSTGRES_HOST_AUTH_METHOD=trust -v "$(pwd)/server.crt:/var/lib/postgresql/server.crt:ro" -v "$(pwd)/server.key:/var/lib/postgresql/server.key:ro" postgres:12-alpine -c ssl=on -c ssl_cert_file=/var/lib/postgresql/server.crt -c ssl_key_file=/var/lib/postgresql/server.key
+ 4399  docker ps
+ 4401  docker run --rm -it --link postgres postgres:12-alpine psql -h postgres -U postgres
+ 4432  docker ps
+ 4433  docker inspect da25c118894a
+ 4439  docker ps
+ 4443  docker stop postgres
+ 4444  docker rm postgres
+ 4445  docker run -d --name postgres -p 5432:5432 -e POSTGRES_HOST_AUTH_METHOD=trust -v "$(pwd)/server.crt:/var/lib/postgresql/server.crt:ro" -v "$(pwd)/server.key:/var/lib/postgresql/server.key:ro" postgres:12-alpine -c ssl=on -c ssl_cert_file=/var/lib/postgresql/server.crt -c ssl_key_file=/var/lib/postgresql/server.key
+ 4447  docker run --rm -it --link postgres postgres:12-alpine psql -h postgres -U postgres
+ 4753  docker ps
+ 4782  docker run --rm -it --link postgres postgres:12-alpine psql -h postgres -U postgres
+ 4797  docker run --rm -it --link postgres postgres:12-alpine pg_restore -d fleastore postgress_backup_20200508.dump.sql -c -U postgres
+ 4798  docker run --rm -it --link postgres -v $PWD:/data/ postgres:12-alpine pg_restore -d fleastore /data/postgress_backup_20200508.dump.sql -c -U postgres
+ 4799  docker run --rm -it --link postgres -v $PWD:/data/ postgres:12-alpine psql -h postgres -U postgres
+ 4800  docker run --rm -it --link postgres -v $PWD:/data/ postgres:12-alpine /bin/bash
+ 4806  docker run --rm -it --link postgres -v $PWD:/data/ postgres:12-alpine /bin/bash
+ 4809  docker run --rm -it --link postgres -v $PWD:/data/ postgres:12-alpine /bin/bash
+ 4891  docker run --rm -it --link postgres postgres:12-alpine
+ 4894  docker run --rm -it --link postgres postgres:12-alpine :bin/bash
+ 4895  docker run --rm -it --link postgres postgres:12-alpine /bin/bash
+ 4896  docker run --rm -it --link postgres -v $PWD:/data/ postgres:12-alpine /bin/bash
+ 4903  docker run --rm -it --link postgres -v $PWD:/data/ postgres:12-alpine psql -h postgres -U postgres
+ 4904  docker run --rm -it --link postgres -v $PWD:/data/ postgres:12-alpine /bin/bash
+ 4945  docker run --rm -it --link postgres -v $PWD:/data/ postgres:12-alpine psql -h postgres -U postgres
+ 5244  docker run --rm -it --link postgres postgres:12-alpine psql -h postgres -U postgres
+ 5257  docker network create selenium\n
+ 5258  docker run -d -p 4444:4444 -p 5900:5900 --name firefox --network selenium -v /dev/shm:/dev/shm selenium/standalone-firefox-debug:3.14.0-curium\n
+ 5309  docker ps
+ 5310  docker ps -a
+ 5311  docker start postgres
+ 5312  docker ps
+ 5328  docker run -d --name redis-dev -p 6379:6379 redis
+ 5481  docker-compose up -d --build .
+ 5483  docker-compose up -d --build
+ 5484  docker ps
+ 5486  nano docker-compose.yml
+ 5487  docker ps
+ 5488  docker stop django_pos_web
+ 5489  docker stop django_pos_web_1
+ 5490  docker rm django_pos_web_1
+ 5491  docker-compose up -d --build
+ 5492  docker ps
+ 5493  docker-compose run web ./manage.py createsuperuser
+ 5788  docker network create selenium\n
+ 5789  docker ps
+ 5790  docker ps -a
+ 5791  docker ps -a | grep Exited
+ 5792  docker ps -a | grep firefox
+ 5793  docker images | grep webwhatsapi
+ 5794  docker images
+ 5800  docker build -t webwhatsapi .
+ 5805  docker build -t webwhatsapi .
+ 5807  docker build -t webwhatsapi .
+ 5809  docker build -t webwhatsapi .
+ 5811  docker build -t webwhatsapi .
+ 5813  docker build -t webwhatsapi .
+ 5815  docker build -t webwhatsapi .
+ 5816  docker run --network selenium -it -e SELENIUM='http://firefox:4444/wd/hub' -v $(pwd):/app  webwhatsapi /bin/bash -c "pip install ./;pip list;python sample/remote.py"\n
+ 5818  docker run --network selenium -it -e SELENIUM='http://firefox:4444/wd/hub' -v $(pwd):/app  webwhatsapi /bin/bash\n
+ 5820  docker run --network selenium -it -e SELENIUM='http://firefox:4444/wd/hub' -v $(pwd):/app  webwhatsapi /bin/bash -c "pip install ./;pip list;python sample/remote.py"\n
+ 5821  docker ps | grep what
+ 5822  docker ps -a | grep what
+ 5823  docker rm 0c352e1549b2 e073ee906e74 f1fc8e44b5fa
+ 5824  docker ps -a
+ 5825  docker run 3796db72544a
+ 5826  docker start 3796db72544a
+ 5827  docker ps
+ 5828  docker run --network selenium -it -e SELENIUM='http://firefox:4444/wd/hub' -v $(pwd):/app  webwhatsapi /bin/bash -c "pip install ./;pip list;python sample/remote.py"\n
+ 5829  docker run --network selenium -it -e SELENIUM='http://firefox:4444/wd/hub' -v $(pwd):/app  webwhatsapi /bin/bash -c "pip install ./;pip list;python sample/new_messages_observer.py"\n
+ 5830  docker ps
+ 5831  docker run --network selenium -it -e SELENIUM='http://firefox:4444/wd/hub' -v $(pwd):/app  webwhatsapi /bin/bash -c "pip install ./;pip list;python sample/new_messages_echo.py"\n
+ 5832  docker run --network selenium -it -e SELENIUM='http://firefox:4444/wd/hub' -v $(pwd):/app  webwhatsapi /bin/bash -c "pip install ./;pip list;python sample/echo.py"\n
+ 5833  docker run --network selenium -it -e SELENIUM='http://firefox:4444/wd/hub' -v $(pwd):/app  webwhatsapi /bin/bash -c "pip install ./;pip list;python sample/new_messages_observer.py"\n
+ 5847  docker run --rm --name sae-mysql -v $PWD/mysql_data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pwd  mysql:latest
+ 5852  docker run --rm --name sae_myadmin --link sae_mysql:db -p 8080:80 phpmyadmin/phpmyadmin
+ 5853  docker ps
+ 5854  docker ps | more
+ 5855  docker run --rm --name sae-myadmin --link sae-mysql:db -p 8080:80 phpmyadmin/phpmyadmin
+ 5883  docker ps
+ 5886  docker ps
+ 5891  docker inspect sae-mysql | grep IP
+ 5893  docker ps
+ 5894  docker stop sae-mysql
+ 5896  docker run --rm --name sae-mysql -v $PWD/mysql_data:/var/lib/mysql -v $PWD/mysql_var:/var/run/mysqld/ -e MYSQL_ROOT_PASSWORD=my-secret-pwd  mysql:latest
+ 5898  docker run --rm --name sae-mysql -v $PWD/mysql_data:/var/lib/mysql -v $PWD/mysql_var:/var/run/mysqld/ -e MYSQL_ROOT_PASSWORD=my-secret-pwd  mysql:latest
+ 5908  docker run --rm --name sae-mysql -v $PWD/mysql_data:/var/lib/mysql -v $PWD/mysql_var:/var/run/mysqld/ -e MYSQL_ROOT_PASSWORD=my-secret-pwd  mysql:latest
+ 5912  docker run --rm --name sae-mysql -v $PWD/mysql_data:/var/lib/mysql -v -e MYSQL_ROOT_PASSWORD=my-secret-pwd  mysql:latest
+ 5913  docker run --rm --name sae-mysql -v $PWD/mysql_data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pwd  mysql:latest
+ 5914  docker stop sae-mysql
+ 5915  docker run --rm --name sae-mysql -v $PWD/mysql_data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pwd -p 3306:3306  mysql:latest
+ 5917  docker inspect sae-mysql | grep IP
+ 5918  docker inspect sae-mysql
+ 5919  docker inspect sae-mysql | more
+ 5921  docker ps
+ 5923  docker stop sae-mysql
+ 5924  docker run --rm --name sae-mysql -v $PWD/mysql_data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pwd --hostname saemysql -p 3306:3306  mysql:latest
+ 5926  docker stop sae-mysql
+ 5927  docker run --rm --name sae-mysql -v $PWD/mysql_data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pwd -h saemysql -p 3306:3306  mysql:latest
+ 5929  docker inspect sae-mysql | grep IP
+ 5931  docker inspect sae-mysql | more
+ 6026  docker ps
+ 6027  docker stop sae-mysql
+ 6029  docker stop affectionate_varahamihira
+ 6030  docker ps
+ 6031  docker rm affectionate_varahamihira
+ 6032  docker stop firefox
+ 6033  docker rm firefox
+ 6034  docker ps
+ 6087  docker ps
+ 6092  docker-compose down
+ 6093  docker ps
+ 6095  docker ps
+ 6096  docker stop samba
+ 6097  docker stop muximux
+ 6098  docker stop postgres
+ 6099  docker stop docker-collector-metrics
+ 6100  docker stop docker-collector-logs
+ 6101  docker stop portainer_portainer_1
+ 6102  docker ps
+ 6232  docker start redis
+ 6233  docker ps
+ 6234  docker ps -a | grep redis
+ 6235  docker start redis-dev
+ 6236  docker ps
+ 6500  docker s
+ 6501  docker ps
+ 6502  docker run -d -p 4444:4444 --shm-size=2g selenium/standalone-chrome:3.141.59-20200525
+ 6504  docker ps
+ 6505  docker stop reverent_johnson
+ 6506  docker rm reverent_johnson
+ 6507  docker run --rm  -p 4444:4444 --shm-size=2g -v $PWD/app selenium/standalone-chrome:3.141.59-20200525 /bin/bash
+ 6508  docker ps
+ 6509  docker run -it --rm  -p 4444:4444 --shm-size=2g -v $PWD:/app selenium/standalone-chrome:3.141.59-20200525 /bin/bash
+ 6510  docker run -it --rm  -p 4444:4444 --shm-size=2g -v $PWD:/app selenium/standalone-chrome-debug:3.141.59-20200525 /bin/bash
+ 6520  docker build -t selenium_docker .
+ 6522  docker build -t selenium_docker .
+ 6523  docker run --rm --privileged -p 4000:4000 -d -it selenium_docker
+ 6524  docker ps
+ 6525  docker stop practical_ride
+ 6526  docker run --rm --privileged -p 4000:4000 -it selenium_docker
+ 6527  docker ps
+ 6691  docker run redis-dev
+ 6692  docker ps -a | grep redis
+ 6693  docker start redis-dev
+ 6778  cat docker-entrypoint.sh
+ 6779  cat docker-compose.yml
+ 6782  nano docker-entrypoint.sh
+ 6783  docker-compose up
+ 6784  docker-compose rm
+ 6785  cat docker-compose.yml
+ 6786  docker-compose up
+ 6787  docker-compose rm
+ 6790  cat docker-compose.yml
+ 6791  nano docker-compose.yml
+ 6792  docker-compose up
+ 6793  nano docker-compose.yml
+ 6794  docker-compose up
+ 6799  docker-compose rm
+ 6800  docker-compose up
+ 6801  docker-compose rm
+ 6804  docker-compose up
+ 6805  docker ps
+ 6806  docker run -it webwhatsapp-wrapper_firefox_1 bash
+ 6807  docker exec -it webwhatsapp-wrapper_firefox_1 bash
+ 6808  cat ../docker-compose.yml
+ 6852  docker ps -a | grep wrapper
+ 6853  docker logs webwhatsapp-wrapper_whatsapp_1
+ 6855  docker-compose rm
+ 6856  docker-compose up
+ 6857  docker ps -a | grep wrapper
+ 6858  docker logs webwhatsapp-wrapper_whatsapp_1
+ 6859  docker-compose rm
+ 6861  docker-compose up
+ 6862  docker ps -a | grep wrapper
+ 6865  nano ../docker-compose.yml
+ 6866  docker ps -a | grep wrapper
+ 6867  docker-compose rm
+ 6868  docker-compose up
+ 6869  docker ps -a | grep wrapper
+ 6870  docker logs webwhatsapp-wrapper_whatsapp_1
+ 6872  docker-compose rm
+ 6873  nano docker-compose.yml
+ 6876  docker-compose up
+ 6877  docker logs webwhatsapp-wrapper_whatsapp_1
+ 6879  nano ../docker-compose.yml
+ 6880  docker-compose rm
+ 6881  docker-compose up
+ 6882  docker ps -a | grep wrapper
+ 6883  docker logs webwhatsapp-wrapper_whatsapp_1
+ 6885  docker exec -it webwhatsapp-wrapper_whatsapp_1 bash
+ 6886  docker run -it webwhatsapp-wrapper_whatsapp_1 bash
+ 6887  docker start -it webwhatsapp-wrapper_whatsapp_1 bash
+ 6890  docker-compose rm
+ 6891  docker-compose up
+ 6892  docker logs webwhatsapp-wrapper_whatsapp_1
+ 6893  docker-compose rm
+ 6895  docker-compose rm
+ 6896  docker-compose up && docker-compose rm
+ 6897  docker logs webwhatsapp-wrapper_whatsapp_1
+ 6898  cat ../docker-compose.yml
+ 6899  docker pull selenium/standalone-firefox-debug
+ 6901  docker-compose up && docker-compose rm
+ 6902  docker logs webwhatsapp-wrapper_whatsapp_1
+ 6903  docker run -it --rm selenium/standalone-firefox-debug /bin/bash
+ 6904  cat ../docker-compose.yml
+ 6905  docker images
+ 6906  docker images | more
+ 6910  cat ../docker-compose.yml
+ 6941  git commit -m "Add dockerfile"
+ 6943  docker ps -a
+ 6944  docker ps -a | grep parking
+ 6945  docker 
+ 6948  docker build . -t fullbright/car-license-plate-api
+ 6950  docker push
+ 6951  docker push fullbright/car-license-plate-api
+ 6952  docker run -it --rm fullbright/car-license-plate-api bin/bash
+ 6953  docker run -it --rm fullbright/car-license-plate-api /bin/bash
+ 6957  docker build . -t fullbright/car-license-plate-api
+ 6958  docker push fullbright/car-license-plate-api
+ 6960  docker build . -t fullbright/car-license-plate-api
+ 6961  docker push fullbright/car-license-plate-api
+ 6968  git commit -m "Fix dockerfile and allow all hosts"
+ 6970  docker build . -t fullbright/car-license-plate-api
+ 6971  docker push fullbright/car-license-plate-api
+ 6988  git commit -m "Push docker image to repository"
+ 7047  nano docker-compose.yml
+ 7048  git add docker-compose.yml
+ 7049  git commit -m "Adding docker compose file"
+ 7263  docker ps
+ 7320  docker images
+ 7321  docker images | grep scan
+ 7322  docker images
+ 7323  docker images | grep -v none
+ 7324  docker images | more
+ 7401  cat fiverr-wrapper/docker-entrypoint.sh
+ 7889  docker ps
+ 7890  docker start redis
+ 7891  docker start redis-dev
+ 7895  docker ps
+ 7896  docker start postgres
+ 7897  docker ps
+ 7906  docker run --rm -it --link postgres postgres:12-alpine psql -h postgres -U postgres
+ 7977  docker search python
+ 7978  docker search python3.6
+ 7979  docker run -it python:3.6.11-buster /bin/bash
+ 7980  docker ps -a
+ 7981  docker ps -a | grep python
+ 7982  docker rm modest_albattani
+ 7983  docker run -it --rm  python:3.6.11-buster /bin/bash
+ 7984  docker run -it --rm -v $PWD:/app  python:3.6.11-buster /bin/bash
+ 7991  git commit -m "Run django + python 3.6 from docker"
+ 7993  docker build -t fullbright/python3.6.11-buster -f Dockerfile.python3.6.11-buster
+ 7994  docker build . -t fullbright/python3.6.11-buster -f Dockerfile.python3.6.11-buster
+ 7996  docker build . -t fullbright/python3.6.11-buster -f Dockerfile.python3.6.11-buster
+ 7999  docker run -it --rm -v $PWD:/app  fullbright/python3.6.11-buster  /bin/bash
+ 8001  docker run -it --rm -v $PWD:/app -p 8002:8002  fullbright/python3.6.11-buster  /bin/bash
+ 8003  docker build . -t fullbright/python3.6.11-buster -f Dockerfile.python3.6.11-buster
+ 8005  docker build . -t fullbright/python3.6.11-buster -f Dockerfile.python3.6.11-buster
+ 8007  docker build . -t fullbright/python3.6.11-buster -f Dockerfile.python3.6.11-buster
+ 8011  docker run -it --rm -v $PWD:/app -p 8002:8002  fullbright/python3.6.11-buster
+ 8012  docker run -it --rm -v $PWD:/app -p 8001:8001  fullbright/python3.6.11-buster
+ 8014  docker run -it --rm -v $PWD:/app -p 8001:8001  fullbright/python3.6.11-buster
+ 8018  git commit -m "Fix dockerfile build"
+ 8020  git commit -m "Add a makefile to be able to run the dev server with docker"
+ 8111  docker images
+ 8112  docker images | node
+ 8113  docker images | grep node
+ 8114  docker images | more
+ 8339  docker run -it --rm -v $PWD:/app -p 8002:8002  fullbright/python3.6.11-buster /bin/bash
+ 8341  docker ps
+ 8342  docker inspect strange_khayyam
+ 8343  docker ps
+ 8344  docker exec strange_khayyam curl http://127.0.0.1:8002/
+ 8345  docker ps
+ 8346  docker exec strange_khayyam curl http://127.0.0.1:8002/
+ 8352  docker ps
+ 8353  docker exec bold_mirzakhani pipenv python manage.py makemigrations
+ 8354  docker exec bold_mirzakhani pipenv run python manage.py makemigrations
+ 8355  docker exec bold_mirzakhani pipenv run python manage.py migrate
+ 8361  git commit -m "Fix startdev with docker"
+ 8403  docker run --rm -it ubuntu /bin/bash
+ 8432  cat docker-compose.yml
+ 8435  DOCKER_FILE=Dockerfile.simple make docker-build
+ 8436  make docker-run
+ 8440  make docker-run
+ 8444  make docker-run
+ 8448  make docker-run
+ 8449  docker push fullbright/scannerserver:0.1
+ 8450  docker push fullbright/scannerserver:0.2
+ 8451  docker push --help
+ 8452  docker push fullbright/scannerserver
+ 8453  docker push fullbright/scannerserver:latest
+ 8454  docker pull fullbright/scannerserver:latest
+ 8455  make docker-deploy
+ 8456  docker tag --help
+ 8457  docker tag fullbright/scannerserver:0.2  fullbright/scannerserver:latest
+ 8458  make docker-deploy
+ 8476  make docker-run
+ 8478  make docker-run
+ 8481  git commit -m "Fix image build and upload to dockerhub"
+ 8489  docker run -it --rm -v ${PWD}:/app  fullbright/python3.6.11-buster /bin/bash
+ 8588  make docker-debug
+ 8594  git commit -m "Update the docker debug command"
+ 8701  docker run --privileged -dit --name android-container ubuntu
+ 8702  docker ps
+ 8703  docker stop android-container
+ 8704  docker rm android-container
+ 8711  docker build \\n--build-arg GRADLE_VERSION=5.4.1 \\n--build-arg ANDROID_API_LEVEL=28 \\n--build-arg ANDROID_BUILD_TOOLS_LEVEL=28.0.3 \\n--build-arg EMULATOR_NAME=test \\n-t android-container .
+ 8713  docker build \\n--build-arg GRADLE_VERSION=5.4.1 \\n--build-arg ANDROID_API_LEVEL=28 \\n--build-arg ANDROID_BUILD_TOOLS_LEVEL=28.0.3 \\n--build-arg EMULATOR_NAME=test \\n-t android-container .
+ 8715  docker build \\n--build-arg GRADLE_VERSION=5.4.1 \\n--build-arg ANDROID_API_LEVEL=28 \\n--build-arg ANDROID_BUILD_TOOLS_LEVEL=28.0.3 \\n--build-arg EMULATOR_NAME=test \\n-t android-container .
+ 8717  docker build \\n--build-arg GRADLE_VERSION=5.4.1 \\n--build-arg ANDROID_API_LEVEL=28 \\n--build-arg ANDROID_BUILD_TOOLS_LEVEL=28.0.3 \\n--build-arg EMULATOR_NAME=test \\n-t android-container .
+ 8719  docker build \\n--build-arg GRADLE_VERSION=5.4.1 \\n--build-arg ANDROID_API_LEVEL=28 \\n--build-arg ANDROID_BUILD_TOOLS_LEVEL=28.0.3 \\n--build-arg EMULATOR_NAME=test \\n-t android-container .
+ 8721  docker build \\n--build-arg GRADLE_VERSION=5.4.1 \\n--build-arg ANDROID_API_LEVEL=28 \\n--build-arg ANDROID_BUILD_TOOLS_LEVEL=28.0.3 \\n--build-arg EMULATOR_NAME=test \\n-t android-container .
+ 8723  docker build \\n--build-arg GRADLE_VERSION=5.4.1 \\n--build-arg ANDROID_API_LEVEL=28 \\n--build-arg ANDROID_BUILD_TOOLS_LEVEL=28.0.3 \\n--build-arg EMULATOR_NAME=test \\n-t android-container .
+ 8725  docker build \\n--build-arg GRADLE_VERSION=5.4.1 \\n--build-arg ANDROID_API_LEVEL=28 \\n--build-arg ANDROID_BUILD_TOOLS_LEVEL=28.0.3 \\n--build-arg EMULATOR_NAME=test \\n-t android-container .
+ 8728  docker build \\n--build-arg GRADLE_VERSION=5.4.1 \\n--build-arg ANDROID_API_LEVEL=28 \\n--build-arg ANDROID_BUILD_TOOLS_LEVEL=28.0.3 \\n--build-arg EMULATOR_NAME=test \\n-t android-container .
+ 8729  docker images
+ 8730  docker images | grep android
+ 8733  docker run --privileged -it \\n--rm -v $PWD/data:/data -v gradle-cache:/cache android-container \\nbash -c '. /start.sh && /data/gradlew test -p /data'
+ 8736  docker run --privileged -it \\n--rm -v $PWD/data:/data -v gradle-cache:/cache android-container \\nbash -c '. /start.sh && /data/gradlew test -p /data'
+ 8745  docker build \\n--build-arg GRADLE_VERSION=5.4.1 \\n--build-arg ANDROID_API_LEVEL=28 \\n--build-arg ANDROID_BUILD_TOOLS_LEVEL=28.0.3 \\n--build-arg EMULATOR_NAME=test \\n-t android-container .
+ 8746  docker run --privileged -it \\n--rm -v $PWD/data:/data -v gradle-cache:/cache android-container \\nbash -c '. /start.sh && /data/gradlew test -p /data'
+ 8749  docker run --privileged -it \\n--rm -v $PWD:/data -v gradle-cache:/cache android-container:sunflower \\nbash -c '. /start.sh && /data/gradlew test -p /data'
+ 8750  docker run --privileged -it \\n--rm -v $PWD:/data -v gradle-cache:/cache android-container \\nbash -c '. /start.sh && /data/gradlew test -p /data'
+ 8751  docker run --privileged -it \\n--rm  -v gradle-cache:/cache android-container \\nbash -c '. /start.sh && /data/gradlew test -p /data'
+ 8753  docker build \\n--build-arg GRADLE_VERSION=5.4.1 \\n--build-arg ANDROID_API_LEVEL=28 \\n--build-arg ANDROID_BUILD_TOOLS_LEVEL=28.0.3 \\n--build-arg EMULATOR_NAME=test \\n-t android-container .
+ 8755  docker build \\n--build-arg GRADLE_VERSION=5.4.1 \\n--build-arg ANDROID_API_LEVEL=28 \\n--build-arg ANDROID_BUILD_TOOLS_LEVEL=28.0.3 \\n--build-arg EMULATOR_NAME=test \\n-t android-container .
+ 8756  docker run --privileged -it \\n--rm  -v gradle-cache:/cache android-container \\nbash -c '. /start.sh && /opt/gradlew test -p /data'
+ 8757  docker run --privileged -it \\n--rm  -v gradle-cache:/cache android-container \\nbash -c '. /start.sh && /opt/gradlew/gradlew test -p /data'
+ 8758  docker run --privileged -it \\n--rm -v $PWD/data:/data -v gradle-cache:/cache android-container \\nbash -c '. /start.sh && /opt/gradlew test -p /data'
+ 8759  docker run --privileged -it \\n--rm -v $PWD/data:/data -v gradle-cache:/cache android-container \\nbash -c '. /start.sh && /opt/gradlew/gradlew test -p /data'
+ 8762  docker run --privileged -it \\n--rm -v $PWD/data:/data -v gradle-cache:/cache android-container \\nbash -c '. /start.sh && /opt/gradlew/gradlew android_x86 -p /data'
+ 8764  docker run --privileged -it \\n--rm -v gradle-cache:/cache android-container \\nbash -c '. /start.sh && /opt/gradlew/gradlew android_x86 -p /data'
+ 8765  docker run --privileged -it \\n--rm -v $PWD/data:/data -v gradle-cache:/cache android-container \\nbash -c '. /start.sh && /opt/gradlew/gradlew android_x86'
+ 8767  docker run --privileged -it \\n--rm -v gradle-cache:/cache android-container \\nbash -c '. /start.sh && /opt/gradlew/gradlew android_x86 -p /'
+ 8768  docker run --privileged -it \\n--rm -v gradle-cache:/cache android-container \\nbash -c ' ls -l / && cat /start.sh && . /start.sh && /opt/gradlew/gradlew android_x86 -p /'
+ 8769  docker run --privileged -it \\n--rm -v gradle-cache:/cache android-container \\nbash -c ' grep -cw ".*\(vmx\|svm\).*" /proc/cpuinfo'
+ 8770  docker run --privileged -it \\n--rm -v gradle-cache:/cache android-container \\nbash -c 'cat /proc/cpuinfo'
+ 8771  docker run --privileged -it \\n--rm -v gradle-cache:/cache android-container \\nbash -c ' ls -l / && cat /start.sh && . /start.sh && /opt/gradlew/gradlew android_x86 -p /'
+ 8772  docker run --privileged -it \\n--rm -v gradle-cache:/cache android-container /bin/bash
+ 8773  docker run --privileged -it \\n--rm -v gradle-cache:/cache -v $PWD/data:/data android-container /bin/bash
+ 8776  docker run --privileged -it \\n--rm -v gradle-cache:/cache -v $PWD/data:/data android-container /bin/bash
+ 8777  docker build \\n--build-arg GRADLE_VERSION=5.4.1 \\n--build-arg ANDROID_API_LEVEL=28 \\n--build-arg ANDROID_BUILD_TOOLS_LEVEL=28.0.3 \\n--build-arg EMULATOR_NAME=test \\n-t android-container .
+ 8779  docker build \\n--build-arg GRADLE_VERSION=5.4.1 \\n--build-arg ANDROID_API_LEVEL=28 \\n--build-arg ANDROID_BUILD_TOOLS_LEVEL=28.0.3 \\n--build-arg EMULATOR_NAME=test \\n-t android-container .
+ 8780  docker run --privileged -it \\n--rm -v gradle-cache:/cache android-container \\nbash -c ' ls -l / && cat /start.sh && . /start.sh && /opt/gradlew/gradlew android_x86 -p /data'
+ 8781  docker run --privileged -it \\n--rm -v gradle-cache:/cache android-container \\nbash -c ' ls -l / && cat /start.sh && . /start.sh && /opt/gradlew/gradlew android_x86 -p /data --scan'
+ 8782  docker run --privileged -it \\n--rm -v gradle-cache:/cache android-container \\nbash -c ' ls -l / && cat /start.sh && . /start.sh && /opt/gradlew/gradlew android_x86 -p /data --status'
+ 8785  docker run --privileged -it \\n--rm -v gradle-cache:/cache android-container \\nbash -c ' ls -l / && cat /start.sh && . /start.sh && /opt/gradlew/gradlew android_x86 -p /data --status'
+ 8786  docker build \\n--build-arg GRADLE_VERSION=5.4.1 \\n--build-arg ANDROID_API_LEVEL=28 \\n--build-arg ANDROID_BUILD_TOOLS_LEVEL=28.0.3 \\n--build-arg EMULATOR_NAME=test \\n-t android-container .
+ 8787  docker run --privileged -it \\n--rm -v gradle-cache:/cache android-container \\nbash -c ' ls -l / && cat /start.sh && . /start.sh && /opt/gradlew/gradlew android_x86 -p /data --status'
+ 8809  history | grep docker

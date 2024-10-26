@@ -1,3 +1,4 @@
 sunflower/
 *.DS_Store
-.idea/
+.idea/# General .gitignore template
+.DS_Store
